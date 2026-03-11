@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: Athira-S-1/cgcthopevision
+  repo: Athira-S-1/cgct-hopevision
   branch: main
 
 media_folder: "public/images"
