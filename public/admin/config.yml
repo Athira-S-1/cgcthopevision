@@ -3,16 +3,16 @@ backend:
   repo: Athira-S-1/cgct-hopevision
   branch: main
 
-media_folder: "public/images"
-public_folder: "/images"
+media_folder: "public/uploads"
+public_folder: "/uploads"
 
 collections:
-  - name: "pages"
-    label: "Pages"
+  - name: pages
+    label: Pages
     files:
-      - label: "Homepage"
-        name: "home"
-        file: "src/content/home.md"
+      - label: Homepage
+        name: home
+        file: src/content/home.md
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}
